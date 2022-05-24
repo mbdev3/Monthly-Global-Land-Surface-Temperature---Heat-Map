@@ -58,11 +58,12 @@ const App = () => {
     let temp = (data["temp"] + e["variance"]).toFixed(1);
     let month = toMonthName(e["month"], "long");
     let year = e["year"];
+
     tooldiv
       .style("visibility", "visible")
       .html(() => `${year} - ${month}</br>${temp} ℃</br>${e["variance"].toFixed(1)} ℃`)
-      .style("top", yScale(e["month"]) - innerHeight / 12 + "px")
-      .style("left", xScale(e["year"]) + 100 + "px")
+      .style("top", event.pageY - 120 + "px")
+      .style("left", xScale(year) + margin.left + margin.right + "px")
       .attr("data-year", year);
   };
   const onMouseOut = (e) => {
@@ -70,7 +71,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <section>
       <div id="title">
         <h1>Monthly Global Land-Surface Temperature</h1>
         <p id="description">{`${xMin}-${xMax}: base temperature ${data.temp}℃`}</p>
@@ -135,7 +136,7 @@ const App = () => {
           </a>
         </g>
       </svg>
-    </>
+    </section>
   );
 };
 

@@ -1,8 +1,10 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   overflow: auto;
   font-family: 'Nunito', sans-serif;
   min-height: 100vh;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +37,7 @@ pre {
 
 .tooldiv {
   position: absolute;
+
   background-color: rgba(99, 95, 93, 0.3);
   background-color: hsla(0, 0%, 100%, 0.1);
   -webkit-backdrop-filter: blur(0.5em);
