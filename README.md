@@ -4,7 +4,7 @@
 
 ### :camera: Preview:
 
-<img src="https://projects-preview.s3.eu-west-3.amazonaws.com/Iris+Data+set+scatter+plot+mbdev.webp" width="75%"   />
+<img src="https://projects-preview.s3.eu-west-3.amazonaws.com/Heat+Map+mbdev.webp"    />
 
 :rocket: **Stack:** [D3](https://d3js.org/), [React](https://reactjs.org/)
 
@@ -12,4 +12,4 @@
 
 :page_with_curl: [Data](https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json)
 
-:pushpin: [Live Demo](https://iris-mbdev.netlify.app/)
+:pushpin: [Live Demo](https://heatmap-mbdev.netlify.app/)
