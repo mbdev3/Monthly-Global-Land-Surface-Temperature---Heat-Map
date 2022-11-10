@@ -1,8 +1,6 @@
 # Monthly Global Land-Surface Temperature - Heat Map
 
----
 
-### :camera: Preview:
 
 <img src="https://projects-preview.s3.eu-west-3.amazonaws.com/Heat+Map+mbdev.webp"    />
 
